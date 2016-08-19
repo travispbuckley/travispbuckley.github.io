@@ -1,3 +1,63 @@
 body {
-	background-color: orange;
+	background-image: url("hockey_rink.png");
+	
+	background-size: cover;
+	font-size: 1.2em;
+}
+
+#intro_paragraph {
+	border: 3px solid red;
+	border-radius: 25px;
+	padding: 25px;
+	background-color: gray;
+	font-family: impact, sans-serif;
+}
+
+.rounded_box {border: 1px solid black;
+	border-radius: 20px;
+	padding: 10px;
+	background-color:  #e6e6e6;
+
+}
+
+footer {
+	margin-right: auto;
+	margin-left: auto;
+	width: 6em;
+}
+
+#hockey_stick { margin-top: 30px;
+
+
+}
+
+.spaced_htag {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15em;
+}
+
+table {
+	background-color: red;
+}
+
+a:visited {
+    color: red;
+}
+a:hover {
+	color: blue;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: white;
+    font-size: .8em;}
+  
+  h1 {font-size: 95%; }
+
+ img { width: 20%; }
+  
+  main {font-size: 75%;}
+table { font-size: 1em; }
 }
